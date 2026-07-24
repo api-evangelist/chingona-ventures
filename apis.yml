@@ -1,8 +1,27 @@
 aid: chingona-ventures
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chingona-ventures.png
 name: Chingona Ventures
-description: 'Chingona Ventures is a company surfaced as a portfolio company of foundry-group and added
-  to the API Evangelist network as a stub for enrichment. Sector: venture-capital. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Chingona Ventures is an early-stage venture capital firm that writes
+  first institutional checks into pre-seed companies, typically investing $250,000
+  to $2 million into founders building in industries that are massively changing.
+  The firm concentrates on financial technology, the future of work, the future of
+  learning, and health technology, backing founders with unique market positioning
+  in large, often overlooked growth markets. Its portfolio spans 40+ companies including
+  Finix, Hologram, Suma Wealth, Honey Homes, Connect Care Hero, and Boom Pay. This
+  API Evangelist profile was originally surfaced as a venture-capital lead and has
+  been enriched with firm identity and domain-security signals; the firm publishes
+  no public API, so API-specific artifacts are not applicable.'
 url: https://raw.githubusercontent.com/api-evangelist/chingona-ventures/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Venture Capital
+- Pre-Seed
+- Fintech
+- Future of Work
+- Future of Learning
+- Health Technology
+- Early Stage Investing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.chingona.ventures
+- type: Team
+  url: https://www.chingona.ventures/team
+- type: Support
+  url: https://www.chingona.ventures/contact
+- type: SignUp
+  url: https://www.chingona.ventures/apply
+- type: JobBoard
+  url: https://www.chingona.ventures/chingona-portfolio-job-board
+- type: DomainSecurity
+  url: security/chingona-ventures-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
